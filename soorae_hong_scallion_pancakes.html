@@ -67,9 +67,7 @@
   <form action="reviews_url" method ="post" >
     <label for="user_name">User Name</label>
     <input id="user_name" type="text">
-    <label for="rating">Rating</label>
-    <input id="rating" type="radio">
-
+    <br>
     <label for="expertise">Cooking Expertise</label>
     <select id="expertise" name="user[expertise]">
       <option disabled selected>--Select Cooking Expertise--</option>
@@ -78,10 +76,19 @@
       <option value="Cooking is a Hobby">Cooking is a Hobby</option>
       <option value="Professional Chef">Professional Chef</option>
 
+      <label>Rating</label>
+      1<input type="radio" name="user[rating]" value="1">
+      2<input type="radio" name="user[rating]" value="2">
+      3<input type="radio" name="user[rating]" value="3">
+      4<input type="radio" name="user[rating]" value="4">
+      5<input type="radio" name="user[rating]" value="5">
+
+      <br>
     <label for="Review">Review</label>
     <textarea name="user[review]"></textarea>
+    <br>
+    <br>
     <input type="submit" value="Submit Review">
-
   </form>
 </section>
 <footer>
