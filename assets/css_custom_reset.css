@@ -42,12 +42,34 @@ section{
 }
 aside{
   width:180px;
-  display: inline-block;;
+  display: inline-block;
+  margin-right:15px;
 }
-ul li:nth-of-type(2n){
+aside ul li:nth-of-type(2n){
   background-color: whitesmoke;
+  margin: 15px 0px;
+}
+
+ol li {
+  margin: 15px 0px;
 }
 
 h2+.user_review{
   border-top:1px solid black;
+}
+
+input {
+  display: block;
+}
+
+input[type="select"]{
+  margin: 10px;
+
+}
+
+input[type="text"]{
+  width:30px;
+}
+textarea {
+  width: 200px;
 }
