@@ -1,4 +1,4 @@
-html body h1 h2 ol ul li img section a span title nav p  {
+html body article h1 h2 ol ul li img section a span title nav p  {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,6 +19,27 @@ input: last-child:hover{
   -webkit-filter: brightness(80%);
 }
 
+
+nav ul li a {
+    padding: 20px;
+    display: inline-block;
+}
+
+head img {
+    display: inline-block;
+}
+
+body {
+  width:900px;
+  margin:0 auto;
+}
+section{
+  width:700px;
+}
+aside{
+  width:180px;
+
+}
 ul li:nth-of-type(2n){
   background-color: whitesmoke;
 }
