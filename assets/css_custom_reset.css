@@ -20,12 +20,16 @@ input: last-child:hover{
 }
 
 
-nav ul li a {
+nav {
+  display:inline-block;
+}
+nav ul li {
     padding: 20px;
     display: inline-block;
+
 }
 
-head img {
+header img {
     display: inline-block;
 }
 
