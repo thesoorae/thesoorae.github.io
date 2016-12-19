@@ -26,7 +26,6 @@ nav {
 nav ul li {
     padding: 20px;
     display: inline-block;
-
 }
 
 header img {
@@ -39,10 +38,11 @@ body {
 }
 section{
   width:700px;
+  display: inline-block;
 }
 aside{
   width:180px;
-
+  display: inline-block;;
 }
 ul li:nth-of-type(2n){
   background-color: whitesmoke;
