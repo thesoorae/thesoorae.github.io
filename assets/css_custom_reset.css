@@ -23,7 +23,7 @@ input:last-child:hover{
 nav {
   display:inline-block;
 }
-nav ul li {
+nav ul li a{
     padding: 20px;
     display: inline-block;
 }
@@ -39,11 +39,13 @@ body {
 section{
   width:700px;
   display: inline-block;
+  vertical-align: top;
 }
 aside{
   width:180px;
-  display: inline-block;
+  display: block;
   margin-right:15px;
+  vertical-align: top;
 }
 aside ul li:nth-of-type(2n){
   background-color: whitesmoke;
@@ -58,9 +60,7 @@ h2+.user_review{
   border-top:1px solid black;
 }
 
-input {
-  display: block;
-}
+
 
 input[type="select"]{
   margin: 10px;
@@ -68,8 +68,8 @@ input[type="select"]{
 }
 
 input[type="text"]{
-  width:30px;
+  width:200px;
 }
 textarea {
-  width: 200px;
+  width: 500px;
 }
