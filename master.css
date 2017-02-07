@@ -1,0 +1,100 @@
+html, div, p, h1, h2, h3, span, button{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: inherit;
+}
+h1{
+  font-size: 50px;
+  margin: 10px;
+  font-weight: normal;
+}
+h2{
+  font-size: 40px;
+  margin: 10px;
+  font-weight: normal;
+}
+
+
+div.container{
+  height: 105vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content; center;
+
+}
+
+div.first{
+  background-color: black;
+}
+
+div.second{
+  background-color: #00A0B0;
+}
+
+div.third{
+  background-color: #CC333F;
+}
+
+div.fourth{
+  background-color: #EB6841;
+}
+
+div.fifth{
+  background-color: #EDC951;
+}
+div.text-box{
+  width: 50%;
+  margin: auto;
+
+}
+
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+
+div.links {
+  width: 50%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: gray;
+}
+.links a{
+  margin: 20px 0px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: lightgray;
+}
+
+.links p{
+  font-size: 18px;
+  color: lightgray;
+}
+
+.fifth a{
+  color: gray;
+}
+
+div.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.last *{
+  margin: 20px;
+}
+.last p {
+  margin-top: 30px;
+}
+
+.clickable {
+  cursor:pointer;
+}
