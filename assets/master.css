@@ -1,8 +1,12 @@
-html, div, p, h1, h2, h3, span, button{
+html, div, p, h1, h2, h3, span, button, body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   font-size: inherit;
+
+}
+html{
+    background-color: black;
 }
 h1{
   font-size: 50px;
@@ -14,6 +18,7 @@ h2{
   margin: 10px;
   font-weight: normal;
 }
+
 
 
 div.container{
