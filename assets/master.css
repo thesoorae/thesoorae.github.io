@@ -62,29 +62,47 @@ div.text-box{
 }
 
 div.links {
-  width: 50%;
-  margin-left: 10px;
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  height: 100px;
+}
+
+div.thumbnail{
+  width: 150px;
+  height: 100%;
+  overflow: hidden;
+}
+.thumbnail img{
+  height: 100px;
+  width: auto;
+}
+div.link-text {
+  width: 70%;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   color: gray;
 }
-.links a{
-  margin: 20px 0px;
+.link-text a{
+  margin: 0px 0px 20px;
   color: white;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
-  color: lightgray;
+  color: black;
 }
 
-.links p{
-  font-size: 18px;
-  color: lightgray;
+.link-text p{
+  font-size: 15px;
+  color: black;
 }
 
 .fifth a{
-  color: gray;
+  color: white;
 }
 
 div.last {
@@ -102,4 +120,10 @@ div.last {
 
 .clickable {
   cursor:pointer;
+}
+
+path#hi{
+  position: absolute;
+  top: 100px;
+  left: 0;
 }
