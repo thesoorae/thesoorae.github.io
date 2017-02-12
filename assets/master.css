@@ -122,8 +122,28 @@ div.last {
   cursor:pointer;
 }
 
-path#hi{
+svg{
   position: absolute;
   top: 100px;
+  left: 600px;
+  z-index: 100;
+}
+path{
+  top: 0px;
+  position: absolute;
+  z-index: 100;
+}
+div.main{
+  position: absolute;
+  top: 0;
   left: 0;
+
+}
+
+div.frame{
+  width: 100%;
+  height: 6000px;
+  overflow-y: scroll;
+    position: relative;
+
 }
