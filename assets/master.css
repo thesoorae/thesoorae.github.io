@@ -66,11 +66,11 @@ div.text-box{
 
 
 div.links {
-  margin: 15% 0;
+  margin: 50px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 500px;
+  width: 90%;
   height: 100px;
 }
 
@@ -169,8 +169,4 @@ div.frame{
 }
 .center a{
   text-align: center;
-}
-
-.center {
-  margin: 15% auto !important;
 }
