@@ -23,6 +23,7 @@ h2{
 
 div.container{
   height: 105vh;
+  max-height: 900px;
   width: 100vw;
   color: white;
   display: flex;
