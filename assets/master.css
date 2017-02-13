@@ -22,8 +22,7 @@ h2{
 
 
 div.container{
-  height: 105vh;
-  max-height: 900px;
+  height: 790px;
   width: 100vw;
   color: white;
   display: flex;
@@ -125,8 +124,8 @@ div.last {
 }
 
 svg{
-  width: 50vw;
-  height: 1000vh;
+  width: 600px;
+  height: 5000px;
   position: absolute;
 
   top: 400px;
