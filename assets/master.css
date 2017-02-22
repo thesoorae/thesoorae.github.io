@@ -100,9 +100,7 @@ div.link-text {
   font-weight: bold;
   color: black;
 }
-a:hover {
-  color: LightGray;
-}
+
 .ital{
   color: black;
   font-style: italic;
@@ -180,4 +178,8 @@ div.frame{
 }*/
 a{
   z-index: 200;
+}
+
+a:hover{
+  color: #2FAA96;
 }
