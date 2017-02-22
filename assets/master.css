@@ -131,6 +131,8 @@ div.last {
 
 .clickable {
   cursor:pointer;
+  z-index: 200;
+
 }
 
 svg{
